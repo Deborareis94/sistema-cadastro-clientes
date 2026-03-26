@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+     <header class="navbar">
+        <h2>Sistema de Cadastro</h2>
+        <nav>
+            <a href="index.html">Cadastro</a>
+            <a href="clientes.html">Consulta</a>
+         </nav>
+       </header>
+
+    <h1>Clientes Cadastrados</h1>
+
+   <div class="buscar-container">
+    <input type="text" id="buscar" placeholder="Buscar Cliente...">
+     <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <table border ="1">
+        <tr>
+         <th> ID</th>
+         <th> Nome</th>
+         <th>TELEFONE</th>
+         <th>EMAIL</th>
+         <th>ENDEREÇO</th>
+         <th>AÇÕES</th>
+</tr>
+        
+  <tbody id="tabela-clientes">
+      </tbody>
+      
+     </table>
+
+     <script src="js/clientes.js"></script>
+    
+</body>
+</html>
